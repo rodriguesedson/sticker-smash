@@ -18,6 +18,3 @@ jobs:
             expo-version: latest
         - run: npm ci
         - run: eas build --plaftorm all --non-interactive --no-wait
-        - run: |
-            git remote set-url origin https://git:rodriguesedson@github.com/sticker-smash.git
-            npm deploy -- -u "github-actions-bot <support+actions@github.com>"
